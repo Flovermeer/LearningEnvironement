@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercice HTML/CSS</title>
+        <meta charset="utf-8">
+    </head>
+
+    <body>
+
+        <h1 id="intro">Qu'est-ce que le MARKDOWN ?</h1>
+
+                <p>
+                 Le Markdown est un <b>langage de balisage léger</b>. Il offre une syntaxe facile à lire et à écrire.
+                Il a été créé en 2004 par John Gruber et Aaron Swartz.
+                </p>
+
+            <h3>Mise en oeuvre</h3>
+
+                <p>
+                Le Markdown s'utilise avec différents langages de programmation : <i>Perl, PHP, Ruby, Java, Python, C# </i>, etc. 
+                Il se termine par l'extension *.md* ou *.markdown*.
+                </p>
+    
+            <h3>Utilisation</h3>        
+                
+                <p>Le Markdown est très polyvalent, il permet de créer des listes, des tableaux, des liens, insérer des images, etc.
+                Ci-dessous, différents exemple d'application du Markdown.
+                </p>
+    
+            <h3>Trucs et astuces de ninja</h3> 
+    
+                <p>
+                &#128077 Un unique caractère pour tous les dé-formater : l'anti-slash (ou backslash) ! " \ "  </br>
+                &#129304 Un lien vers les emojis (car oui, tu peux en mettre P A R T O U T ! )
+                <a href="https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md"> Emoji Cheat List </a>
+                </p>
+    
+        <hr>
+
+        <h1 id="syntax">La syntaxe</h1>
+    
+            <h3>Mise en page</h3>
+
+                <table>
+                    <tr>
+                        <td><b>Syntaxe</b></td>
+                        <td><b>  Résultat</b></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>*Italic*</td>
+                        <td><i>  Italique</i></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>**Bold**</td>
+                        <td><b>  Bold</b></td>
+                    </tr>
+                    
+                    <tr>
+                        <td># Titre (jusqu'à 6 tailles variables avec le nombre de #)</td>
+                        <td><h2>  Titre</h2></td>
+                    </tr>
+                             
+                    <tr>
+                        <td>- - - </td>
+                        <td>Crée une ligne</td>
+                    </tr>
+                                    
+                    <tr>
+                        <td>~Texte barré~</td>
+                        <td><strike>Texte barré</strike></td>
+                    </tr>
+
+                    <tr>
+                        <td>> Citation</td>
+                        <td><blockquote>Citation</blockquote></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Double espace + Enter pour passer à la ligne suivante</td>
+                        <td> <br> </td>
+                    </tr>
+                
+                </table> 
+                
+                <hr>
+
+        <h1 id="tableau">Tableau</h1>
+
+                <table>
+                    <tr>
+                        <td>Un</td>
+                        <td>Exemple</td>
+                        <td>De</td>
+                        <td>Tableau</td>
+                    </tr>
+                       
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                       
+                </table>
+
+        <hr>
+
+        <h1 id="listes">Listes</h1>    
+
+            <h3>Liste numérotée</h3>
+
+                <ol>
+                    <li>First Item</li>
+                    <li>Second Item</li>
+                    <li>Third Item</li>
+                    <li>Fourth Item</li>
+                </ol>
+    
+            <h3>Liste numérotée avec indentation</h3>
+
+                <ol>
+                    <li>First Item</li>
+                    <li>Second Item</li>
+                        <ol>
+                            <li>Indented Item</li>
+                            <li>Indented Item</li>
+                        </ol>
+                    <li>Third Item</li>
+                    <li>Fourth Item</li>
+                </ol>
+
+            <h3>Liste à Puces</h3>
+
+            <ul>
+                    <li>First Item</li>
+                    <li>Second Item</li>
+                    <li>Third Item</li>
+                    <li>Fourth Item</li>
+                </ul>
+    
+            <h3>Liste à Puces avec indentation</h3>
+
+            <ul>
+                    <li>First Item</li>
+                    <li>Second Item</li>
+                        <ul>
+                            <li>Indented Item</li>
+                            <li>Indented Item</li>
+                        </ul>
+                    <li>Third Item</li>
+                    <li>Fourth Item</li>
+            </ul>
+
+            <p><i>*Remarque : Vous pouvez ajouter des images, des blocs de citation 
+                ou des liens à une liste imbriquée(= "indentée"), en plus du texte.</i>
+            </p>
+
+        <hr>
+
+        <h1 id="liens">Liens</h1>
+
+            <h3>Un lien basique</h3>
+
+                <p>[Nom que vous voulez donner au lien](url du lien "texte de l'infobulle")</p>
+                <a href="https://www.youtube.com/watch?v=wZZ7oFKsKzY" title="My new life">Cette vidéo va changer votre vie !</a>
+
+            <h3>Une image en tant que lien</h3>    
+
+            <p>[![Légende](url vers l'image)](url vers une page)]</p>
+            <a href="https://www.youtube.com/watch?v=wZZ7oFKsKzY" title="My new life"><img src="https://img.fireden.net/v/thumb/1524/43/1524437519508s.jpg"/></a>
+                
+        <hr>
+
+        <h1 id="img">Images</h1>
+
+            <p>![texte si l'image ne charge pas ](URL de l'image )
+                <br><br>
+                Exemple :
+            </p>
+            <img src="https://www.dhresource.com/200x200s/f2-albu-g7-M00-A9-B5-rBVaSluHTzCAVr8yAAh2bVrzHRo546.jpg/halloween-cat-octopus-costumes-funny-cute.jpg"/>
+
+            <p>Et ça fonctionne aussi avec des gifs :</p>
+            <img src="https://media.giphy.com/media/WwMHQqMG0yirepFPP8/giphy.gif"/>
+        
+        <hr>
+
+        <h1 id="code">Afficher du code</h1>
+
+            <p>Pour afficher du code en format brut (non interpreté) :
+                
+                <ul>
+                    <li>faire tab a chaque ligne de code</li>
+                    <li>quatre espaces avant chaque ligne de code</li>
+                    <li>utiliser trois bacticks avant votre bloc de code ( `` ` `` )  :
+
+                        `` ``` votre code ici ``` ``</li>
+                </ul>
+
+                Vous pouvez même afficher les couleurs en ajoutant le nom du langage après les backticks : <br> 
+
+                ```js "votre code" ``` <br>
+            donnera :    
+            </p>
+
+            <pre>
+                <code>
+                js
+                function myFunction() {
+                var x = "", i;
+                for (i=0; i<5; i++) {
+                 x = x + "The number is " + i + " ";
+                }
+                document.getElementById("demo").innerHTML = x;
+                }
+
+                </code>
+            </pre>
+            
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+</html>
